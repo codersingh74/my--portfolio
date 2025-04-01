@@ -74,8 +74,8 @@ $(document).ready(function() {
     
     $(".btn").click(function(){
         var link = document.createElement('a');
-        link.href = 'Jai resume_11zon.pdf';  // Yahan apni resume file ka path dalna
-        link.download = 'My_Resume.pdf'; // Yahan jo naam chaho wo de sakte ho
+        link.href = 'Jai resume_11zon.pdf';  
+        link.download = 'My_Resume.pdf'; 
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
